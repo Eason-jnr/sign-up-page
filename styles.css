@@ -25,3 +25,45 @@ header {
     top: 0;
     z-index: 1000;
 }
+
+header nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header .logo h1{
+    font-size: 1.8rem;
+}
+
+header .nav-links{
+    list-style: none;
+    display: flex;
+}
+
+header .nav-links li{
+    margin-left: 20px;
+}
+
+header .nav-links a{
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header .nav-links a:hover{
+    color: #FFD700;
+}
+
+header .btn.login-btn {
+    background-color: #FF6F61;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
