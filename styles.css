@@ -93,6 +93,51 @@ header .btn.login-btn:hover {
     text-align: center;
 }
 
+#signup h2 {
+    font-size: 2rem;
+    color: #008080;
+    margin-bottom: 20px;
+}
+
+#signup p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333333;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.form-group input:focus {
+    border-color: #008080;
+    outline: none;
+}
+
+.form-group small {
+    display: block;
+    margin-top: 5px;
+    font-size: 0.9rem;
+    color: #777777;
+}
+
+
+
+
 
 
 
