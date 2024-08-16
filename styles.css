@@ -67,3 +67,32 @@ header .btn.login-btn {
     font-weight: bold;
     transition: background-color 0.3s;
 }
+
+
+header .btn.login-btn:hover {
+    background-color: white;
+    color: #FF6F61;
+    border: 2px solid #FF6F61;
+}
+
+/* Sign-Up Section */
+#signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    background-color: white;
+}
+
+.signup-container {
+    background-color: #F7F7F7;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+
+
+
