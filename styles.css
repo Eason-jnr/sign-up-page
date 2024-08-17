@@ -21,7 +21,7 @@ header {
     background-color: #008080;
     color: white;
     padding: 20px 0;
-    position: sticky;
+
     top: 0;
     z-index: 1000;
 }
@@ -102,6 +102,7 @@ header .btn.login-btn:hover {
 #signup p {
     font-size: 1.2rem;
     margin-bottom: 30px;
+    color: #008080;
 }
 
 .form-group {
@@ -135,9 +136,181 @@ header .btn.login-btn:hover {
     color: #777777;
 }
 
+.terms {
+    display: flex;
+    align-items: center;
+}
 
+.terms input[type="checkbox"] {
+    margin-right: 10px;
+}
 
+.terms label a {
+    color: #FF6F61;
+    text-decoration: underline;
+}
+.terms label a:hover {
+    color: #008080;
+}
 
+.signup-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #FF6F61;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
 
+.signup-btn:hover {
+    background-color: #008080;
+}
 
+.social-signup {
+    margin-top: 30px;
+}
 
+.social-signup p {
+    margin-bottom: 15px;
+}
+
+.social-signup .btn {
+    width: 48%;
+    padding: 10px;
+    margin: 5px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.google-btn {
+    background-color: #DB4437;
+    color: white;
+}
+
+.google-btn:hover {
+    background-color: #C33D2C;
+}
+
+.facebook-btn {
+    background-color: #3B5998;
+    color: white;
+}
+
+.facebook-btn:hover {
+    background-color: #334B87;
+}
+
+.login-link {
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+.login-link a {
+    color: #FF6F61;
+    font-weight: bold;
+}
+
+.login-link a:hover {
+    color: #008080;
+}
+
+/* Footer Section */
+footer {
+    padding: 50px 0;
+    background-color: #333333;
+    color: white;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer .footer-about,
+footer .footer-links,
+footer .footer-social{
+    flex: 1;
+    margin: 20px;
+}
+
+footer h3{
+    margin-bottom: 20px;
+    color: #FFD700;
+}
+
+footer p{
+    line-height: 1.6;
+}
+
+footer .footer-links ul, 
+footer .footer-social ul{
+    list-style: none;
+    padding: 0;
+}
+
+footer .footer-links ul li,
+footer .footer-social ul li{
+    margin-bottom: 10px;
+}
+
+footer .footer-links ul li a,
+footer .footer-social ul li a{
+ color: white;
+ transition: color 0.3s;
+}
+
+footer .footer-links ul li a:hover,
+footer .footer-social ul li a:hover{
+    color: #FFD700;
+}
+
+footer .footer-social ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+footer .footer-social ul li a {
+    font-size: 1.5rem;
+}
+
+footer .footer-bottom {
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #444444;
+    margin-top: 30px;
+}
+
+footer .footer-bottom p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #777777;
+}
+
+/* Responsive Design */
+@media (max-width: 768px){
+    header .nav-links {
+        display: none;
+    }
+
+    .signup-container {
+        width: 90%;
+    }
+
+    footer .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer .footer-about,
+    footer .footer-links,
+    footer .footer-social {
+        margin: 10px 0;}}
